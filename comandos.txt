@@ -8,3 +8,13 @@ flag são instruções de configuração
 --save-dev ou -D instala o pacote apenas o ambiente de desenvolvimento
 
 npm install ou npm i - verifica e instala todas as dependências listadas no package.json
+
+arquitetura sugerida de pastas
+
+projeto
+/src 
+    /index.ts
+/dist
+    /index.js
+/package.json 
+/tsconfig.json 

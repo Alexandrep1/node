@@ -4,7 +4,9 @@
   "description": "codigos de estudos node js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc --watch",
+    "start": "node dist/tipos.js --watch",
+    "build": "tsc"
   },
   "author": "alexandre",
   "license": "ISC",
@@ -15,5 +17,6 @@
     "chalk": "^5.4.1",
     "nodemon": "^3.1.10"
   },
-  "type": "module"
+  "type": "module",
+  "keywords": []
 }
